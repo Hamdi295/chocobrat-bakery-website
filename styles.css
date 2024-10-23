@@ -216,3 +216,23 @@ justify-content: flex-end;
     color: #4D1D1D;
 }
 
+.social-icons{
+    display: flex;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+.social-icons a {
+    margin-left: 15px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.social-icons img:hover {
+    filter: grayscale(0%);
+}
