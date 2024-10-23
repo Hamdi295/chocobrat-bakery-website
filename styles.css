@@ -152,3 +152,30 @@ nav ul li a:hover {
     border-radius: 10px;
     object-fit: cover;
 }
+
+footer {
+    background-color: #FAE9CD;
+    padding: 80px 20px;
+    font-family: 'Arial', sans-serif;
+    max-height: 350px;
+    line-height: 2;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D6C4A6;
+}
+.footer-logo{
+    margin-left: 40px;
+}
+
+.footer-logo h1 {
+    font-size: 25px;
+    color: #4D1D1D;
+    font-weight: bold;
+    
+   
+}
