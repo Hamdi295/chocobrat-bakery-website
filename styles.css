@@ -87,3 +87,45 @@ nav ul li a:hover {
     color: #4D1D1D;
     cursor: pointer;
 }
+
+.hero-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 228px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+     overflow: hidden;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 28px;
+    color: #4D1D1D;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+    color: #4D1D1D;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
